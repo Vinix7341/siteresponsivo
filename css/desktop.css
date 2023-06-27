@@ -49,6 +49,10 @@ header {
     background-color: #ccc;
 }
 
+header img {
+    margin: 12px 0px 0px 0px;
+}
+
 header, section article, .imagem, section {
     margin: 0px 0px 15px 0px;
 }
@@ -83,6 +87,11 @@ article#texto {
     float: left;
 }
 
+article#artigo-interno {
+    width: 100%;
+    float: left;
+}
+
 aside#imagens {
     width: 300px;
     float: right;
@@ -92,6 +101,27 @@ aside#imagens {
     width: 300px;
 }
 
+.video {
+    width: 560px;
+    height: 315px;
+}
+
+.mapa {
+    width: 700px;
+    height: 450px;
+}
+
 footer {
-    clear: both;
+    clear: both; /* limpa o efeito dos floats anterores */
+    width: 100%;
+    line-height: 50px;
+    text-align: right;
+    border-top: 1px solid #333;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-size: 10pt;
+    text-style: italic;
 }
